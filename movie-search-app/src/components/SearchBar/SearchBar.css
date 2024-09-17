@@ -1,0 +1,7 @@
+.search-bar-wrapper {
+  display: flex;
+  gap: 2rem;
+  position: -webkit-sticky;
+  margin: 10rem 0 2rem 0;
+  z-index: 1000;
+}

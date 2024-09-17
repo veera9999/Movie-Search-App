@@ -1,0 +1,26 @@
+.search-results-wrapper {
+  padding: 2rem;
+}
+.search-results-list ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .search-results-list ul {
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-results-list ul {
+    grid-template-columns: 1fr;
+    padding: 0.25rem;
+    gap: 3rem;
+  }
+}
